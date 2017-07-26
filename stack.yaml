@@ -1,0 +1,11 @@
+resolver: lts-8.23
+
+packages:
+- '.'
+
+extra-deps:
+  - hedgehog-0.5
+
+flags: {}
+
+extra-package-dbs: []

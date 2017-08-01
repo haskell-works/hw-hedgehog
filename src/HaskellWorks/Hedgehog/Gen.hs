@@ -1,5 +1,6 @@
 module HaskellWorks.Hedgehog.Gen
   ( vector
+  , storableVector
   ) where
 
 import Hedgehog

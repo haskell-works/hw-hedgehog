@@ -2,12 +2,12 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: fc9dac44899c0c50c0d097d033a658cf0a7a6753bb2dd9d5a1f1b9b0a0fcf134
+-- hash: d7c0945a8b283e6fea3fc0830bc8fc7253e77ca5526af524828ff74cb95cdcdc
 
 name:           hw-hedgehog
 version:        0.1.0.1
 synopsis:       Extra hedgehog functionality
-description:    Extra hedgehog functionality
+description:    Extra hedgehog functionality.
 category:       Web
 homepage:       https://github.com/haskell-works/hw-hedgehog#readme
 bug-reports:    https://github.com/haskell-works/hw-hedgehog/issues

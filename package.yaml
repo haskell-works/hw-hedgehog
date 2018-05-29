@@ -8,6 +8,7 @@ maintainer: newhoggy@gmail.com
 copyright: 2017 Author name here
 license: BSD3
 github: haskell-works/hw-hedgehog
+tested-with: GHC == 7.10.3, GHC == 8.0.2, GHC == 8.2.2, GHC == 8.4.2
 extra-source-files:
 - README.md
 library:

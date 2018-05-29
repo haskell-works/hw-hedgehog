@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 50fb44130b88a83efd97e25489b32f9553d27755f8b3cc1d1137d703fd68819f
+-- hash: fc9dac44899c0c50c0d097d033a658cf0a7a6753bb2dd9d5a1f1b9b0a0fcf134
 
 name:           hw-hedgehog
 version:        0.1.0.1
@@ -16,6 +16,7 @@ maintainer:     newhoggy@gmail.com
 copyright:      2017 Author name here
 license:        BSD3
 license-file:   LICENSE
+tested-with:    GHC == 7.10.3, GHC == 8.0.2, GHC == 8.2.2, GHC == 8.4.2
 build-type:     Simple
 cabal-version:  >= 1.10
 

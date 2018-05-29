@@ -16,9 +16,9 @@ library:
   - HaskellWorks.Hedgehog
   - HaskellWorks.Hedgehog.Gen
   dependencies:
-  - base >=4.7 && <5
-  - hedgehog
-  - vector
+  - base >=4.8 && <5
+  - hedgehog >= 0.5 && < 0.7
+  - vector >= 0.10 && < 0.13
 tests:
   hw-hedgehog-test:
     main: Spec.hs

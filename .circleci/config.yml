@@ -90,16 +90,23 @@ jobs:
       - image: quay.io/haskell_works/stack-build-cabal:2018-01-29
 
     steps:
+      - checkout
+
+      - run:
+          name: Copying scripts
+          command: |
+            mkdir -p ~/.local/bin
+            cp ./scripts/* ~/.local/bin
+
       - deploy:
           command: |
-            echo "Hello"
-            # if [ "$CIRCLE_PROJECT_USERNAME" == "haskell-works" ]; then
-            #   if [[ "$CIRCLE_BRANCH" == master ]]; then
-            #     when tag autotag
-            #   elif [[ "$CIRCLE_TAG" =~ v.* ]]; then
-            #     publish
-            #   fi
-            # fi
+            if [ "$CIRCLE_PROJECT_USERNAME" == "haskell-works" ]; then
+              if [[ "$CIRCLE_BRANCH" == master ]]; then
+                when tag autotag
+              elif [[ "$CIRCLE_TAG" =~ v.* ]]; then
+                publish
+              fi
+            fi
 
 workflows:
   version: 2

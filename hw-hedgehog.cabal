@@ -22,7 +22,7 @@ source-repository head
 
 common base       { build-depends: base       >= 4.8      && < 5      }
 
-common hedgehog   { build-depends: hedgehog   >= 0.6      && < 0.7    }
+common hedgehog   { build-depends: hedgehog   >= 0.6      && < 1.1    }
 common vector     { build-depends: vector     >= 0.12     && < 0.13   }
 
 common common

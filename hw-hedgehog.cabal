@@ -1,7 +1,7 @@
 cabal-version:  2.2
 
 name:                   hw-hedgehog
-version:                0.1.0.4
+version:                0.1.0.5
 synopsis:               Extra hedgehog functionality
 description:            Extra hedgehog functionality.
 category:               Test

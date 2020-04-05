@@ -9,10 +9,10 @@ homepage:               https://github.com/haskell-works/hw-hedgehog#readme
 bug-reports:            https://github.com/haskell-works/hw-hedgehog/issues
 author:                 John Ky
 maintainer:             newhoggy@gmail.com
-copyright:              2017-2019 John Ky
+copyright:              2017-2020 John Ky
 license:                BSD-3-Clause
 license-file:           LICENSE
-tested-with:            GHC == 8.8.3, GHC == 8.6.5, GHC == 8.4.4, GHC == 8.2.2
+tested-with:            GHC == 8.8.3, GHC == 8.6.5, GHC == 8.4.4
 build-type:             Simple
 extra-source-files:     README.md
 
@@ -20,12 +20,12 @@ source-repository head
   type: git
   location: https://github.com/haskell-works/hw-hedgehog
 
-common base               { build-depends: base               >= 4.8        && < 5      }
+common base                       { build-depends: base                       >= 4.11       && < 5      }
 
-common doctest            { build-depends: doctest            >= 0.16.2     && < 0.17   }
-common doctest-discover   { build-depends: doctest-discover   >= 0.2        && < 0.3    }
-common hedgehog           { build-depends: hedgehog           >= 0.6        && < 1.1    }
-common vector             { build-depends: vector             >= 0.12       && < 0.13   }
+common doctest                    { build-depends: doctest                    >= 0.16.2     && < 0.17   }
+common doctest-discover           { build-depends: doctest-discover           >= 0.2        && < 0.3    }
+common hedgehog                   { build-depends: hedgehog                   >= 0.6        && < 1.1    }
+common vector                     { build-depends: vector                     >= 0.12       && < 0.13   }
 
 common config
   default-language:     Haskell2010
